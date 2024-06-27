@@ -6,10 +6,10 @@ A Python tool to monitor screen changes
 
 ## Features
 - Select a region of the screen to monitor based on canvas in tkinter.
-- Continuously monitor the selected region for changes. Save the screenshot when changes are detected.
+- Continuously monitor the selected region for changes. Do something when changes are detected, such as save the screenshot.
 - Potential for future enhancements like notifications via email, QQ, WeChat, etc.
 - 基于tkinter的canvas，选择要监控的屏幕区域。
-- 持续监控所选区域的变化。在检测到变化时保存截图。
+- 持续监控所选区域的变化。在检测到变化时执行后续操作，如保存截图。
 - 未来可能的增强功能，如通过电子邮件、QQ、微信等发送通知。
 
 ## Requirements
