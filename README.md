@@ -21,7 +21,7 @@ A Python tool to monitor screen changes
 ## Installation
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/screen-monitor-tool.git
+    git clone https://github.com/ohownew/ScreenMonitor.git
     cd screen-monitor-tool
     ```
 2. Install the required packages:
