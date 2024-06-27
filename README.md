@@ -40,15 +40,3 @@ A Python tool to monitor screen changes
 3. The tool will continuously monitor the selected region. When a change is detected, a screenshot of the region will be saved as `screenshot.jpg`.
 
 4. If the selected region deviates from the cursor, change the `RectBoundary(scale_factor=100)` into `RectBoundary(scale_factor=None)` in file `screen_monitor.py`
-
-## 使用方法
-1. 运行工具：
-    ```sh
-    python screen_monitor.py
-    ```
-    
-2. 通过点击并拖动鼠标选择要监控的屏幕区域。
-
-3. 工具将持续监控所选区域。当检测到变化时，该区域的截图将保存为`screenshot.jpg`。
-
-4. 如果选择区域偏离光标的位置，将`screen_monitor.py`文件中的`RectBoundary(scale_factor=100)`改成`RectBoundary(scale_factor=None)` 
