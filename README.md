@@ -1,8 +1,8 @@
 # ScreenMonitor
 
-A Python tool to monitor screen changes and handle screenshots when changes are detected. This tool allows users to select a region of the screen to monitor, and upon detecting changes in that region, it can save the screenshot for further processing.
+A Python tool to monitor screen changes
 
-一个用于监控屏幕变化并在检测到变化时处理截图的Python工具。该工具允许用户选择屏幕的一个区域进行监控，一旦检测到该区域的变化，它可以保存截图以供进一步处理。
+监控屏幕变化的Python工具
 
 ## Features
 - Select a region of the screen to monitor based on canvas in tkinter.
