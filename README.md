@@ -41,6 +41,7 @@ A Python tool to monitor screen changes and handle screenshots when changes are 
 3. The tool will continuously monitor the selected region. When a change is detected, a screenshot of the region will be saved as `screenshot.jpg`.
 
 
+## 使用方法
 1. 运行工具：
     ```sh
     python screen_monitor.py
