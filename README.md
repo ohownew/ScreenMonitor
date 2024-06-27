@@ -4,13 +4,11 @@ A Python tool to monitor screen changes and handle screenshots when changes are 
 一个用于监控屏幕变化并在检测到变化时处理截图的Python工具。该工具允许用户选择屏幕的一个区域进行监控，一旦检测到该区域的变化，它可以保存截图以供进一步处理。
 
 ## Features
-- Select a region of the screen to monitor using a graphical interface.
-- Continuously monitor the selected region for changes.
-- Save the screenshot when changes are detected.
+- Select a region of the screen to monitor based on canvas in tkinter.
+- Continuously monitor the selected region for changes. Save the screenshot when changes are detected.
 - Potential for future enhancements like notifications via email, QQ, WeChat, etc.
-- 使用图形界面选择要监控的屏幕区域。
-- 持续监控所选区域的变化。
-- 在检测到变化时保存截图。
+- 基于tkinter的canvas，选择要监控的屏幕区域。
+- 持续监控所选区域的变化。在检测到变化时保存截图。
 - 未来可能的增强功能，如通过电子邮件、QQ、微信等发送通知。
 
 ## Requirements
@@ -40,6 +38,7 @@ A Python tool to monitor screen changes and handle screenshots when changes are 
 
 3. The tool will continuously monitor the selected region. When a change is detected, a screenshot of the region will be saved as `screenshot.jpg`.
 
+4. If the selected region deviates from the cursor, change the `RectBoundary(scale_factor=100)` into `RectBoundary(scale_factor=None)` in file `screen_monitor.py`
 
 ## 使用方法
 1. 运行工具：
@@ -50,3 +49,5 @@ A Python tool to monitor screen changes and handle screenshots when changes are 
 2. 通过点击并拖动鼠标选择要监控的屏幕区域。
 
 3. 工具将持续监控所选区域。当检测到变化时，该区域的截图将保存为`screenshot.jpg`。
+
+4. 如果选择区域偏离光标的位置，将`screen_monitor.py`文件中的`RectBoundary(scale_factor=100)`改成`RectBoundary(scale_factor=None)` 
